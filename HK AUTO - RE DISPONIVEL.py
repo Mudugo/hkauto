@@ -269,7 +269,7 @@ def encontrar_maior_numero(arquivo_excel):
     return maior_numero
 
 def enviar_mensagem_whatsapp(maior_numero):
-    numero_destino = "++5511984450333"
+    numero_destino = "xx"
     mensagem = f"Último RE disponível para cadastro: {maior_numero}."
     kit.sendwhatmsg_instantly(numero_destino, mensagem, 15)
     
