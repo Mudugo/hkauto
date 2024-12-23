@@ -362,7 +362,7 @@ def aplicar_formatacao_condicional(arquivo_excel):
 
 
 def enviar_mensagem_whatsapp(arquivo_excel, erros_encontrados):
-    numero_destino = "+5511984450333"
+    numero_destino = "xxx"
 
     agora = datetime.now()
     data_atual = agora.strftime("%d/%m/%Y")
